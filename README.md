@@ -1,5 +1,15 @@
 # Rust Wasm Project
 
+### To build the WebAssembly
+`wasm-pack build --target web -d public/pkg`
+
+[wasm-pack](https://rustwasm.github.io/wasm-pack/)
+
+### To watch and make changes
+`cargo watch`
+
+---
+
 In `/src/datasets` there are two data sets.
 
 studies.js - is an array of study objects.
